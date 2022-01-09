@@ -18,7 +18,7 @@ public class Script_BannerAd : MonoBehaviour
     string _adUnitId;
  
 
-	void Awake() {
+    void Awake() {
         // Get the Ad Unit ID for the current platform:
         _adUnitId = (Application.platform == RuntimePlatform.IPhonePlayer)
             ? _iOSAdUnitId

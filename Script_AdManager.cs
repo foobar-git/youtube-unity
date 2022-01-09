@@ -31,9 +31,9 @@ public class Script_AdManager : MonoBehaviour, IUnityAdsInitializationListener
         Debug.Log($"Unity Ads Initialization Failed: {error.ToString()} - {message}");
     }
 
-public Text GetAdStatus() {
-    return adStatusText;
-}
+    public Text GetAdStatus() {
+        return adStatusText;
+    }
 
 
 } // end of class

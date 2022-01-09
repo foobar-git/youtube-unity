@@ -60,7 +60,7 @@ private void Start() {
         if (adUnitId.Equals(_adUnitId) && showCompletionState.Equals(UnityAdsShowCompletionState.COMPLETED)) {
             Debug.Log("Unity Ads Rewarded Ad Completed");
             // Grant a reward.
-            GetComponentInParent<Script_AdManager>().GetAdStatusText().text = "You get a reward!";
+            GetComponentInParent<Script_AdManager>().GetAdStatus().text = "You get a reward!";
             // Load another ad:
             Advertisement.Load(_adUnitId, this);
         }

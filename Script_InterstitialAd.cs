@@ -19,7 +19,7 @@ public class Script_InterstitialAd : MonoBehaviour, IUnityAdsLoadListener, IUnit
     // Load content to the Ad Unit:
 
 	void Start() {
-		LoadAd(); // ADDED IN TUTORIAL
+		LoadAd(); // >>>>>>>>> ADDED IN TUTORIAL
 	}
 
     public void LoadAd() {

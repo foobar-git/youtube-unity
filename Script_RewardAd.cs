@@ -25,7 +25,7 @@ public class Script_RewardAd : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
  
 
 private void Start() {
-    LoadAd(); // ADDED IN TUTORIAL
+    LoadAd(); // >>>>>>>>> ADDED IN TUTORIAL
 }
 
     // Load content to the Ad Unit:
